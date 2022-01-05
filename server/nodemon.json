@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "jamil-rahman",
+        "MONGO_PASSWORD": "mongodb",
+        "MONGODB_URL": "mongodb+srv://jamil-rahman:mongodb@cluster0.n8ckd.mongodb.net/test"
+    }
+}
