@@ -1,10 +1,10 @@
-# UBER-CLONE
+# TEEBAY
 This is a Full Stack [React App](https://reactjs.org/) built using [GraphQL](https://graphql.org/), [Express](https://expressjs.com/), and [MongoDB](https://www.mongodb.com/) 
 
 
 ## SCREENSHOTS
-<a href="url"><img src="https://cdn.discordapp.com/attachments/758726468673994753/928705932374978600/unknown.png" height="480" width="280" ></a>
-<a href="url"><img src="https://cdn.discordapp.com/attachments/758726468673994753/928705978889801758/unknown.png" height="480" width="280" ></a>
+<a href="url"><img src="https://cdn.discordapp.com/attachments/758726468673994753/928705932374978600/unknown.png"  ></a>
+<a href="url"><img src="https://cdn.discordapp.com/attachments/758726468673994753/928705978889801758/unknown.png" " ></a>
 
 ## Setup
 This project was bootstrapped with with [Create React App](https://reactjs.org/docs/getting-started.html)
