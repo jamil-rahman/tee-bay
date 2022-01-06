@@ -13,6 +13,7 @@ module.exports = buildSchema(`
   }
 
   type Product {
+    id: ID!
     title: String!
     price: Int!
     description: String!
@@ -54,7 +55,8 @@ module.exports = buildSchema(`
     createProduct(product:ProductInput): Product
     updateProduct(product:ProductInput): Product
     createUser(user:UserInput): User
-
+    login(email: String!, password: String!): User
+    deleteProduct(productId: ID!): String!
   }
 
   schema {

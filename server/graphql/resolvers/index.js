@@ -1,5 +1,8 @@
-const Product = require('../../models/product')
-const User = require('../../models/user')
+const Product = require('../../models/product');
+const User = require('../../models/user');
+
+const {validateRegisterInput,validateLoginInput} = require('../../utils/validators');
+
 
 module.exports = {
 
@@ -52,6 +55,14 @@ getUser: async ({email})=>{
             throw error
         }
     },
+    getAProduct: async ({title}) => {
+        return new Promise((resolve,reject)=>{
+            Product.findOne({title:title},(err,product)=>{
+            if(err) reject(err);
+            else resolve(product);
+        })
+    });
+    },
 
 //works
   createProduct: async args => {
@@ -72,6 +83,8 @@ getUser: async ({email})=>{
  //works
  createUser: async args => {
     try {
+
+        //creating new user
       const { email, password} = args.user
       const user = new User({
           email, password
@@ -83,6 +96,16 @@ getUser: async ({email})=>{
         throw error
     }
   
-   }
+   },
+
+   async login({ email, password }) {
+    const user = await User.findOne({ email });
+    
+    return {
+      ...user._doc,
+      id: user._id,
+      password: user.password
+    };
+  },
 
 }
