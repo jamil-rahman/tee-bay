@@ -1,2 +1,3 @@
 /server/node_modules
-/server/nodemon.js
+server/nodemon.json
+server/node_modules

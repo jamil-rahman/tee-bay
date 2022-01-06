@@ -1,3 +1,4 @@
-In this guide, we will build from scratch an API with GraphQL, Node JS, Express, and MongoDB. So, let's start by answering an important question: what is GraphQL?
+## TeeBay
+A fullstack React App bootstrapped with Graphql running on an Express server
 
-[Continue reading](https://www.ibrahima-ndaw.com/blog/graphql-api-express-mongodb/)
+[Credits to Ibrahima for helping me starting out](https://www.ibrahima-ndaw.com/blog/graphql-api-express-mongodb/)
