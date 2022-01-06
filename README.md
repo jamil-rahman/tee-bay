@@ -38,7 +38,7 @@ Do the same thing for the server side.
 
  Go to the server folder using the command:
 ```bash
-cd client
+cd server
 ```
 Now use the following command in your terminal:
 ```bash
